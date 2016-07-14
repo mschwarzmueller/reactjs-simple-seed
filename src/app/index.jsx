@@ -7,7 +7,7 @@ class App extends React.Component {
     render() {
         return (
             <div>
-                <p>Hello React!!</p>
+                <h1>ReactJS Seed Project</h1>
                 <Home>
                     My Home Component!
                 </Home>
