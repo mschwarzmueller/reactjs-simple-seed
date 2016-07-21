@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "webpack -d && cp src/index.html dist/index.html && webpack-dev-server --content-base src/ --inline",
+    "build": "webpack -d && cp src/index.html dist/index.html && webpack-dev-server --history-api-fallback --content-base src/ --inline --hot",
     "build:prod": "cp src/index.html dist/index.html && webpack -p"
   },
   "keywords": [
